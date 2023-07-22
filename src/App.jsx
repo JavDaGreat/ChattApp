@@ -16,7 +16,9 @@ function App() {
     <div className={style.appContainer}>
       <section className= {style.sectionContainer}>
         <Navbar/>
-{    user?     <Chat/> :null
+{    user?     <Chat/> : 
+      <h1 className="py-2 text-2xl px-2 text-center text-gray-600"> Welcome To my Chatt App please sign in to use the App</h1>
+    
 }
 
       </section>
